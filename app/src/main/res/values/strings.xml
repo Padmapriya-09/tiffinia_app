@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hello Foodies</string>
+    <string name="hurry"><font color="@color/black" size="30"><b>HURRY!!</b></font>\n<font color="@color/black" size="20"><i>HUNGER DON\'T WAIT</i></font></string>
+    <string name="get_started"><font color="@color/white" size="20">GET STARTED</font>\n<font size="10">Avail Best Offers &amp; Discounts Only For You</font></string>
+    <string name="continue_without_login">Continue Without Login</string>
+    <string name="already_a_tiffinia_member"><font>Already a Tiffinia Member?</font><font color="@color/orange">LOGIN</font></string>
+    <string name="login"><font color="@color/black" size="20"><b>LOGIN</b></font></string>
+    <string name="mobile">Enter Your Mobile Number</string>
+    <string name="fb">Continue with Facebook</string>
+    <string name="google">Continue with Google</string>
+    <string name="terms_textview">By Continuing, You Agree To Our \n<u>Terms of Services</u> &amp; <u>Privacy Policy</u></string>
+    <string name="verify_password"><font color="@color/black" size="20"><b>VERIFY PASSWORD</b></font></string>
+    <string name="password">Enter your Password</string>
+    <string name="proceed">PROCEED</string>
+</resources>

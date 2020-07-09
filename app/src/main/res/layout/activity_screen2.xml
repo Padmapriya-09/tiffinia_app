@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2">
+
+    <ImageView
+        android:id="@+id/background_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="485dp">
+
+            <ImageView
+                android:id="@+id/photo_image_view1"
+                android:layout_width="match_parent"
+                android:layout_height="485dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_2_1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/photo_image_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/object_1"
+                android:scaleType="centerInside"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="110dp"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/hurry"
+                android:layout_marginTop="280dp"/>
+
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_started"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_main"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_without_login"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_secndry"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_a_tiffinia_member"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_secndry"/>
+
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:id="@+id/rlayout">
+
+        <ImageView
+            android:id="@+id/photo_image_view2"
+            android:layout_width="180dp"
+            android:layout_height="168dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/object_1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="50dp"
+            android:layout_marginStart="80dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hurry"
+            app:layout_constraintTop_toBottomOf="@id/photo_image_view2" />
+
+    </RelativeLayout>-->
+
+
+</RelativeLayout>
