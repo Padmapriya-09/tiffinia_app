@@ -87,7 +87,7 @@
                 android:cursorVisible="true"
                 android:layout_gravity="top"
                 android:textSize="20sp"
-                android:inputType="number">
+                android:inputType="phone">
             </EditText>
         </LinearLayout>
 
@@ -120,6 +120,7 @@
             android:layout_marginEnd="30dp"/>
 
         <Button
+            android:id="@+id/proceed_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/proceed"

@@ -12,4 +12,6 @@
     <string name="verify_password"><font color="@color/black" size="20"><b>VERIFY PASSWORD</b></font></string>
     <string name="password">Enter your Password</string>
     <string name="proceed">PROCEED</string>
+    <string name="booking_successful">Booking Successful</string>
+    <string name="incorrect_password">Incorrect Mobile Number or Password</string>
 </resources>
